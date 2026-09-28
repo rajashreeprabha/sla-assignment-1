@@ -7,4 +7,4 @@ CREATE TABLE if not exists Employee (
     Salary DECIMAL(10, 2),
     Department VARCHAR(50)
 );
-SHOW TABLES;
+show tables;
