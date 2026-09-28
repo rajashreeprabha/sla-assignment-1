@@ -4,7 +4,7 @@ use Employor;
 CREATE TABLE if not exists Employee (
     Empid INT,
     Empname VARCHAR(50),
-    Salary DECIMAL(10, 2),
+    Salary INT,
     Department VARCHAR(50)
 );
 show tables;
